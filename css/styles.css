@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    /* display: flex; */
+    /* justify-content: center; */
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/star-wars-background.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    overflow-y:scroll;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: gold;
+    margin: 40px;
+}
+
+h2 {
+    color: gold;
+}
+
+h3 {
+    color: gold;
+}
+
+h6 {
+    color: gold;
+}
+
+.row {
+    text-align: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: gold;
+}
+
+#error-msg {
+    text-align: center;
+}
+
+#info-field {
+    max-width: 400px;
+    display: flex;
+    padding: 20px;
+}
+
+#input-element {
+    width: 250px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#button-element {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#name-result {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    display: grid;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+
